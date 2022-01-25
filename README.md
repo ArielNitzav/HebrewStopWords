@@ -11,7 +11,6 @@ A download link for the parsed corpus:
 Use the following python snippet to load the data files:
 
 ```python
-{
   import json
   
   with open("MILA_corpus.json", "r", encoding='utf-8') as file:
@@ -19,7 +18,6 @@ Use the following python snippet to load the data files:
   
   with open("MILA_resources.json", "r", encoding='utf-8') as file:
     resources = json.load(file)
-}
 ```
 
 ### Resources
